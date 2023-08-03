@@ -9,3 +9,5 @@ spring:
       server:
         git:
           uri: file:///msaProject/git-local-repo
+#          uri: file:///practice/git-local-repo
+
