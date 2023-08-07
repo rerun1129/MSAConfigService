@@ -15,7 +15,8 @@ spring:
     config:
       server:
         native:
-          search-locations: file:///msaProject/native-file-repo
+#          search-locations: file:///msaProject/native-file-repo
+          search-locations: file:///practice/native-file-repo
         git:
           uri: https://github.com/rerun1129/spring-cloud-config.git
 #          username:
@@ -31,6 +32,7 @@ management:
 encrypt:
 #  key: abcdefg0123456789
   key-store:
-    location: file:///msaProject/keystore/apiEncryptionKey.jks
+    location: file:///practice/keystore/apiEncryptionKey.jks
+#    location: file:///msaProject/keystore/apiEncryptionKey.jks
     password: test1234
     alias: apiEncryptionKey
